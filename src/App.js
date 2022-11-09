@@ -1,12 +1,13 @@
 import React from "react";
-import {Routes, Route} from "react-router-dom"
 import "./App.css"
+import About from "./Components/About/about";
 import Home from "./Components/Home/home";
 
 const App = ( ) => {
 return (
   <div>
       <Home />
+      <About />
   </div>
 )
 }
