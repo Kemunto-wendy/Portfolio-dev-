@@ -1,5 +1,6 @@
 import React from "react";
 import CV from "../../assets/CV.pdf"
+import {FaArrowRight} from "react-icons/fa"
 
 const About = ( ) => {
     return (
@@ -23,6 +24,9 @@ const About = ( ) => {
                  Well organized research skills to craft unique and valuable content for a wide variety
                  of target audiences. I am looking forward to develop my next project with the wonderful
                  team. I believe the knowledge gained will help me achieve great in my software engineering path.</p>
+            </div>
+            <div className="ton">
+            <a href="https://www.linkedin.com/in/joy-kemunto-39506a1ba/" target= "_blank"> Lets chat  <FaArrowRight /> </a>
             </div>
         </div>
     )
