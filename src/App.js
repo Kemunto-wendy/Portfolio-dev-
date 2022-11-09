@@ -1,14 +1,12 @@
 import React from "react";
 import {Routes, Route} from "react-router-dom"
 import "./App.css"
+import Home from "./Components/Home/home";
 
 const App = ( ) => {
 return (
   <div>
-    <Routes>
-        <Route>
-        </Route>
-    </Routes>
+      <Home />
   </div>
 )
 }
