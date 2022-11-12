@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css"
 import Home from "./Components/Home/home";
-
-{/*import About from "./Components/About/about";*/}
+import About from "./Components/About/about";
 {/*import Footer from "./Components/Footer/footer";*/}
 {/*import Skill from "./Components/Skill/skill";*/}
 {/*import Project from "./Components/Project/project"*/}
@@ -12,7 +11,7 @@ const App = ( ) => {
 return (
   <div>
       <Home />
-      {/*<About />*/}
+      <About />
       {/*<Skill />*/}
       {/* <Project />*/}
       {/* <Contact />*/}
