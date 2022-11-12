@@ -1,8 +1,7 @@
 import React from "react";
 import "./home.css"
 import {BsJoystick} from "react-icons/bs"
-import TypeWriterEffect from 'react-typewriter-effect';
-
+import Typewriter from "typewriter-effect";
 
 const Home = ( ) => {
     return (
@@ -23,34 +22,34 @@ const Home = ( ) => {
                         <h4>Nairobi, Ke</h4>
                         <div className="page">
                         <h3>Hey There!!!</h3>
-                        <h1>I'm JOY KEMUNTO</h1>
-                        <span>
-                        <TypeWriterEffect
-                            textStyle={{
-                                fontFamily: 'Red Hat Display',
-                                fontWeight: 900,
-                                textAlign: 'center',
-                                fontSize: '2em',
-                            }
-
-                            }
-                            startDelay={2000}
-                            cursorColor="#ffff"
-                            multiText={
-                                [
-                                    'poor',
-                                    'hustler',
-                                    'needy',
-                                    'kids',
-                                    'youth'
-                                ]
-                            }
-                            multiTextDelay={1000}
-                            typeSpeed={50}
-                            multiTextLoop
-                        />
-                    </span>
+                        <h1>I'm <span> JOY KEMUNTO</span></h1>
                         <h5>A Junior Software Developer</h5>
+                            <p>
+                        <Typewriter
+                    onInit={(typewriter)=> {
+                    typewriter
+                    .typeString("Front End Developer <br> . HTML <br> . CSS <br> . JavaScript <br> . React Framework")
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("Back End Developer <br> . Ruby on rails <br> . MySQL")
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("Interacting with the DOM")
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("GIT")
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("Data Annotator <br> . Categorization <br> . Transcriptionist <br> . 2D/3D")
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("Yeap😊! Thats ME")
+                    .start();
+                    }}
+                    />
+                        </p>
+
+
                         </div>
                 </div>
         </div>
